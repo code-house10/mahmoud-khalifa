@@ -226,10 +226,7 @@ body
 #wb_LayoutGrid1
 {
    clear: both;
-   position: -webkit-sticky;
-   position: sticky;
-   top: 0;
-   z-index: 7776;
+   position: relative;
    table-layout: fixed;
    display: table;
    text-align: center;
@@ -297,7 +294,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 320px)
+@media (max-width: 479px)
 {
 #LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
 {
